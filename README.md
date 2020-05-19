@@ -1,0 +1,2 @@
+# blog_masked_transformer
+MaskedTransformer再現実装公開用リポジトリ
