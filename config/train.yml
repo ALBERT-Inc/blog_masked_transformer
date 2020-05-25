@@ -1,0 +1,31 @@
+model:
+  net_params:
+    d_model: 1024
+    d_hidden: 2048
+    n_layers: 2
+    n_heads: 8
+    n_words: 20
+    weights_file: model/model_epoch_19.t7
+    correspondence_file: config/correspondense_masked_transformer.json
+  loss_params:
+    weight_event: 0.1
+    weight_mask: 0.1
+    weight_sentence: 0.1
+  coder_params:
+    kernel_list: [1, 3, 5, 7, 9, 11, 15, 21, 27, 33, 41, 49, 57, 71, 111, 161]
+    slide_window_size: 480
+    stride_factor: 50
+    pos_thresh: 0.7
+    neg_thresh: 0.1
+
+
+optimizer:
+  lr: 1.25e-4
+
+
+model_checkpoint:
+  save_interval: 5
+  n_saved: 5
+
+epochs: 20
+batchsize: 32

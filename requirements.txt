@@ -1,0 +1,9 @@
+Click==7.0
+flake8>=3.5.0
+pytorch-ignite==0.2.1
+numpy==1.17.3
+ruamel.yaml==0.16.5
+spacy==2.2.3
+torch==1.4.0
+torchtext==0.6.0
+tqdm==4.40.1

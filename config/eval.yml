@@ -1,0 +1,15 @@
+model:
+  net_params:
+    d_model: 1024
+    d_hidden: 2048
+    n_layers: 2
+    n_heads: 8
+    n_words: 20
+    nms_thresh: 0.9
+    weights_file: results/2020-05-21 20:34:37/model/MaskedTransformer_epoch_20.pth
+  coder_params:
+    kernel_list: [1, 3, 5, 7, 9, 11, 15, 21, 27, 33, 41, 49, 57, 71, 111, 161]
+    slide_window_size: 480
+    stride_factor: 50
+    pos_thresh: 0.7
+    neg_thresh: 0.1
