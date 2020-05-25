@@ -1,5 +1,5 @@
-# blog_masked_transformer
-MaskedTransformer再現実装公開用リポジトリ
+# Masked Transformer再現実装公開用リポジトリ
+
 
 ## セットアップ
 必要なライブラリと、実装されたMasked Transformerパッケージをセットアップします。なお、実行した環境はPython3.6で、CUDA 10.1です。
